@@ -1,0 +1,15 @@
+{
+  "breeders": [
+    {
+      "id": "9647aff2-036f-4b58-8433-bd13410952a6",
+      "breedingCategory": "saltwater",
+      "sellsTo": "online and local",
+      "shipsStock": false,
+      "cityState": "Melbourne, FL",
+      "stockInBreeding": "clown fish",
+      "sellableStock": "clown fish",
+      "contactBreeder": "heresanother@email.com",
+      "plantsAvailable": false
+    }
+  ]
+}

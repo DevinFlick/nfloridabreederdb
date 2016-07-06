@@ -44,3 +44,32 @@ server.get('/breeders/:id', function(request, response){
                   .value();
   response.send(breeder);
 });
+
+server.put('/breeders/:id', function(request, response){
+  var updatedBreederInfo = {
+    breedingCategory:request.body.breedingCategory,
+    sellsTo:request.body.sellsTo,
+    shipsStock:false,
+    cityState:request.body.cityState,
+    stockInBreeding:request.body.stockInBreeding,
+    sellableStock:request.body.stockInBreeding,
+    contactBreeder:request.body.contactBreeder,
+    plantsAvailable:false
+  };
+  var updatedBreeder = db.get('breeders')
+                          .find({id: request.params.id})
+                          .assign(updatedBreederInfo)
+                          .value();
+  response.send(updatedBreeder);
+});
+
+server.delete('/breeders/:id', function(request, response){
+  var breeder = db.get('breeders')
+                  .remove({id:request.params.id})
+                  .value();
+  response.send(breeder);
+});
+
+server.listen(port, function(){
+  console.log('now listening my man')
+});
