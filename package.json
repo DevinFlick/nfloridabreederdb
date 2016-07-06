@@ -1,0 +1,28 @@
+{
+  "name": "nfloridabreederdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "lodash": "^4.13.1",
+    "express": "^4.14.0",
+    "lowdb": "^0.13.1",
+    "uuid": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevinFlick/nfloridabreederdb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevinFlick/nfloridabreederdb/issues"
+  },
+  "homepage": "https://github.com/DevinFlick/nfloridabreederdb#readme"
+}
