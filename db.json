@@ -1,15 +1,41 @@
 {
   "breeders": [
     {
-      "id": "9647aff2-036f-4b58-8433-bd13410952a6",
-      "breedingCategory": "saltwater",
-      "sellsTo": "online and local",
+      "id": "c839b978-dfea-4965-9b1d-b8dc68275e15",
+      "breedingCategory": "plants freshwater",
+      "sellsTo": "local",
       "shipsStock": false,
-      "cityState": "Melbourne, FL",
-      "stockInBreeding": "clown fish",
-      "sellableStock": "clown fish",
-      "contactBreeder": "heresanother@email.com",
-      "plantsAvailable": false
+      "cityState": "guppies",
+      "stockInBreeding": "guppies",
+      "sellableStock": "heresmyemail@yeahright.com"
+    },
+    {
+      "id": "9bebd8af-bf51-4a59-8f29-02721c35e90c",
+      "breedingCategory": "plants freshwater",
+      "sellsTo": "local",
+      "shipsStock": false,
+      "cityState": "guppies",
+      "stockInBreeding": "guppies",
+      "sellableStock": "heresmyemail@yeahright.com"
+    },
+    {
+      "id": "3275d9c9-8f23-4439-86ad-9a3b3da2b53e",
+      "breedingCategory": "plants freshwater",
+      "sellsTo": "local",
+      "shipsStock": false,
+      "cityState": "guppies",
+      "stockInBreeding": "guppies",
+      "sellableStock": "heresmyemail@yeahright.com"
+    },
+    {
+      "id": "9f82bfc7-166a-4c22-845f-c2db915513a3",
+      "breedingCategory": "plants freshwater inverts",
+      "sellsTo": "local online",
+      "shipsStock": true,
+      "cityState": "Gainesville, FL",
+      "stockInBreeding": "guppies",
+      "sellableStock": "guppies",
+      "contactBreeder": "heresmyemail@yeahright.com"
     }
   ]
 }
