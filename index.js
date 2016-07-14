@@ -3,7 +3,7 @@ var bodyParser = require('body-parser');
 var lowdb = require('lowdb');
 var uuid = require('uuid');
 var server = express();
-
+var cors = require('cors');
 var Breeder = require('./models/breeder.js');
 var port = process.env.PORT || 8080
 var db = lowdb("db.json");
@@ -13,6 +13,7 @@ db.defaults({breeders:[]})
 
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({extended: true}));
+server.use(cors());
 
 server.post('/breeders/', function(request, response){
   var breeder = new Breeder(request.body.breedingCategory, request.body.sellsTo, request.params.shipsStock, request.body.cityState, request.body.stockInBreeding, request.body.sellableStock, request.body.contactBreeder);
