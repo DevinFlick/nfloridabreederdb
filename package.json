@@ -5,15 +5,16 @@
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "lodash": "^4.13.1",
+    "cors": "^2.7.1",
     "express": "^4.14.0",
+    "lodash": "^4.13.1",
     "lowdb": "^0.13.1",
     "uuid": "^2.0.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
