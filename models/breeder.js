@@ -18,4 +18,12 @@ Breeder.prototype.updateComplete = function(value){
   }
 };
 
+Breeder.prototype.postComplete = function(value){
+  if(value.toLowerCase() === 'true'){
+    this.shipsStock = true;
+  } else {
+    this.shipsStock = false;
+  }
+};
+
 module.exports = Breeder;

@@ -5,7 +5,7 @@ var uuid = require('uuid');
 var server = express();
 var cors = require('cors');
 var Breeder = require('./models/breeder.js');
-var port = process.env.PORT || 8080
+var port = process.env.PORT || 2020
 var db = lowdb("db.json");
 
 db.defaults({breeders:[]})
@@ -70,5 +70,5 @@ server.delete('/breeders/:id', function(request, response){
 });
 
 server.listen(port, function(){
-  console.log('now listening my man')
+  console.log('now listening my man' + port)
 });
