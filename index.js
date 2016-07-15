@@ -16,7 +16,7 @@ server.use(bodyParser.urlencoded({extended: true}));
 server.use(cors());
 
 server.post('/breeders/', function(request, response){
-  var breeder = new Breeder(request.body.breedingCategory, request.body.sellsTo, request.params.shipsStock, request.body.cityState, request.body.stockInBreeding, request.body.sellableStock, request.body.contactBreeder);
+  var breeder = new Breeder(request.body.breedingCategory, request.body.sellsTo, request.body.shipsStock, request.body.cityState, request.body.stockInBreeding, request.body.sellableStock, request.body.contactBreeder);
   var result = db.get('breeders')
                   .push(breeder)
                   .last()

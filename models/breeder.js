@@ -3,7 +3,7 @@ function Breeder(breedingCategory, sellsTo, shipsStock, cityState, stockInBreedi
   this.id = id || uuid.v4();
   this.breedingCategory = breedingCategory;
   this.sellsTo = sellsTo;
-  this.shipsStock = false;
+  this.shipsStock = shipsStock;
   this.cityState = cityState;
   this.stockInBreeding = stockInBreeding;
   this.sellableStock = sellableStock;
